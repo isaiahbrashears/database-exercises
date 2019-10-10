@@ -1,5 +1,7 @@
 USE codeup_test_db;
 
+
+
 INSERT INTO albums(artist, name, release_date, genre, sales)
 VALUES  ('Michael Jackson', 'Thriller', 1982, 'Pop, rock, R&B', 47.3),
         ('Eagles', 'Their Greatest Hits (1971–1975)', 1976, 'Country rock, soft rock, folk rock', 41.2),
