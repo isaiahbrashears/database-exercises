@@ -22,3 +22,4 @@ WHERE first_name = 'Irena'
     OR first_name = 'Maya'
 group by gender ;
 
+SELECT * from employees limit 10;
