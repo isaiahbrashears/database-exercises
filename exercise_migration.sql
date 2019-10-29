@@ -131,6 +131,3 @@ select roles.name, count(roles.name)
 from users
 left join roles on users.role_id = roles.id
 group by roleUs.name;
-
-
-
