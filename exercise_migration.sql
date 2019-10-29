@@ -92,9 +92,6 @@ from pets
 join pets_toys  on pets.id = pets_toys.pet_id
 join toys on pets_toys.toy_id = toys.id;
 
-
-
-
 CREATE TABLE roles (
    id INT UNSIGNED NOT NULL AUTO_INCREMENT,
    name VARCHAR(100) NOT NULL,
