@@ -1,6 +1,5 @@
 USE codeup_test_db;
 
-
 SELECT 'All Albums' AS 'Info';
 SELECT * from albums;
 UPDATE albums
